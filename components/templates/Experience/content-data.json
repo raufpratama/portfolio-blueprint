@@ -1,0 +1,110 @@
+{
+  "companies":[
+    {
+      "id":"1",
+      "position":"Front End Developer",
+      "name":"Sicepat Ekspress",
+      "from":"Nov 2020",
+      "until":"Present",
+      "status":"Fulltime",
+      "descriptions": [
+        {
+          "id":"d1",
+          "item":"Communicate with multi-disciplinary teams of engineers, designers and product on a daily basis"
+        },
+        {
+          "id":"d2",
+          "item":"Work with a variety of different languages, platforms, and frameworks such as TypeScript, React, Nest and Go"
+        },
+        {
+          "id":"d3",
+          "item":"Using SCRUM as an agile method for developing app"
+        }
+      ]
+    },
+    {
+      "id":"2",
+      "position":"Front End Engineer",
+      "name":"Kementrian PUPR",
+      "from":"Mar 2021",
+      "until":"Present",
+      "status":"Freelance",
+      "descriptions": [
+        {
+          "id":"d1",
+          "item":"Communicate with multi-disciplinary teams of engineers, project manager, and clients on a weekly basis"
+        },
+        {
+          "id":"d2",
+          "item":"Picking MERN stack as techstack, M for MySql."
+        }
+      ]
+    },
+    {
+      "id":"3",
+      "name":"Delos",
+      "position":"Front End Engineer",
+      "from":"Apr",
+      "until":"Jun 2020",
+      "status":"Contract",
+      "descriptions": [
+        {
+          "id":"d1",
+          "item":"Communicate with multi-disciplinary teams of engineers, project manager, and clients on a daily basis"
+        },
+        {
+          "id":"d2",
+          "item":"Building Irvins's backoffice system integrate with shopify"
+        },
+        {
+          "id":"d3",
+          "item":"Using React in the front, and Java-Spring in the back"
+        }
+      ]
+    },
+    {
+      "id":"4",
+      "position":"Front End Engineer",
+      "name":"Eatsy",
+      "from":"Jan",
+      "until":"Mar 2020",
+      "status":"Fulltime",
+      "descriptions": [
+        {
+          "id":"d1",
+          "item":"Building Queue Display System (QDS) to notice user if their order is ready to serve"
+        },
+        {
+          "id":"d2",
+          "item":"Picking React for frontend, and node + socket.io in the back"
+        },
+        {
+          "id":"d3",
+          "item":"Communicate with multi-disciplinary teams of engineers, designers producers, and clients on a daily basis"
+        }
+      ]
+    },
+    {
+      "id":"5",
+      "position":"Mobile Developer",
+      "name":"Wizy",
+      "from":"Mar",
+      "until":"Des 2019",
+      "status":"Fulltime",
+      "descriptions": [
+        {
+          "id":"d1",
+          "item":"Building an f&b app where user can order by the app and pickup directly when the app notice if the order is ready to serve"
+        },
+        {
+          "id":"d2",
+          "item":"Using ReactNative for multiplatform mobile development"
+        },
+        {
+          "id":"d3",
+          "item":"Communicate with multi-disciplinary teams of engineers, designers producers, and clients on a daily basis"
+        }
+      ]
+    }
+  ]
+}

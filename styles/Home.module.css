@@ -1,16 +1,13 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  background-color: #1d2d50;
+  overflow-x: hidden;
 }
 
 .main {
-  padding: 5rem 0;
   flex: 1;
+  padding-bottom: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;

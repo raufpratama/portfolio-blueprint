@@ -1,0 +1,34 @@
+{
+  "indicator": [
+    {
+      "id":"01.",
+      "title":"About",
+      "target":"about",
+      "delay":"delay-250"
+    },
+    {
+      "id":"02.",
+      "title":"Experience",
+      "target":"experience",
+      "delay":"delay-350"
+    },
+    {
+      "id":"03.",
+      "title":"Tools",
+      "target":"tools",
+      "delay":"delay-450"
+    },
+    {
+      "id":"04.",
+      "title":"Works",
+      "target":"works",
+      "delay":"delay-550"
+    },
+    {
+      "id":"05.",
+      "title":"Contact",
+      "target":"contact",
+      "delay":"delay-650"
+    }
+  ]
+}

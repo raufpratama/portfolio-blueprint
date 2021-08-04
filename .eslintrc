@@ -1,3 +1,69 @@
 {
-  "extends": ["next", "next/core-web-vitals"]
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [ "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended","next", "next/core-web-vitals"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+    "rules": {
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "double", { "avoidEscape": true }],
+      "semi": ["error", "always"],
+      "max-len": [
+        "warn",
+        {
+          "code": 100,
+          "ignoreComments": true,
+          "ignoreTemplateLiterals": true,
+          "ignoreStrings": true,
+          "ignoreUrls": true
+        }
+      ],
+      "no-console": "warn",
+      "react/jsx-props-no-spreading": "off",
+      "react/jsx-one-expression-per-line": "off",
+      "react/prop-types": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-empty-function": "off",
+      "@typescript-eslint/explicit-member-accessibility": "off",
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "@typescript-eslint/no-namespace": [
+        "error",
+        {
+          "allowDeclarations": true
+        }
+      ],
+      "@typescript-eslint/no-unused-vars": [
+        "warn",
+        { "ignoreRestSiblings": true }
+      ],
+      "prettier/prettier": "error"
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "moduleDirectory": ["node_modules"]
+        }
+      },
+      "react": {
+        "version": "detect"
+      }
+    },
+    "globals": {
+      "document": "readonly",
+      "fetch": "readonly",
+      "navigator": "readonly",
+      "window": "readonly"
+    }
 }

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "src": "/icons/github.svg",
+    "linkTo": "https://github.com/raufpratama"
+  },
+  {
+    "id": "2",
+    "src": "/icons/instagram.svg",
+    "linkTo": "https://instagram.com/raufpratamaaa/"
+  },
+  {
+    "id": "3",
+    "src": "/icons/twitter.svg",
+    "linkTo": "https://twitter.com/raufpratamaaa"
+  },
+  {
+    "id": "4",
+    "src": "/icons/linkedin.svg",
+    "linkTo": "https://www.linkedin.com/in/muhammad-rauf-pratama-951829177/"
+  },
+  {
+    "id": "5",
+    "src": "/icons/medium.svg",
+    "linkTo": "https://medium.com/@pratamarauf8"
+  }
+]

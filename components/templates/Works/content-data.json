@@ -1,0 +1,111 @@
+{
+  "projects": [
+    {
+      "id":"1",
+      "pic":"/images/pettycash.png",
+      "type":"Featured Project",
+      "projectName":"Petty Cash System",
+      "description":"Petty Cash System is an internal system for keep track company small expenses",
+      "delay":"delay-1000",
+      "libs": [
+        {
+          "id":"1a",
+          "alt":"typescript",
+          "libPic":"/icons/typescript.svg"
+        },
+        {
+          "id":"2a",
+          "alt":"react",
+          "libPic":"/icons/react-2.svg"
+        },
+        {
+          "id":"3a",
+          "alt":"materialui",
+          "libPic":"/icons/materialui.svg"
+        },
+        {
+          "id":"4a",
+          "alt":"redux",
+          "libPic":"/icons/redux.svg"
+        },
+        {
+          "id":"5a",
+          "alt":"nestjs",
+          "libPic":"/icons/nestjs.svg"
+        },
+        {
+          "id":"6a",
+          "alt":"docker",
+          "libPic":"/icons/docker.svg"
+        }
+      ]
+    },
+
+    {
+      "id":"2",
+      "pic":"/images/jfpu.png",
+      "type":"Featured Project",
+      "projectName":"JFPU",
+      "description":"Jabatan Fungsional Pekerjaan Umum or JFPU for short, is a system for helping Jabatan Fungsional designates the duties, responsibilities, authorities and rights of a Civil Servant (PNS) in an organization",
+      "delay":"delay-2000",
+      "libs": [
+        {
+          "id":"1b",
+          "alt":"typescript",
+          "libPic":"/icons/typescript.svg"
+        },
+        {
+          "id":"2b",
+          "alt":"react",
+          "libPic":"/icons/react-2.svg"
+        },
+        {
+          "id":"3b",
+          "alt":"tailwind",
+          "libPic":"/icons/tailwindcss.svg"
+        },
+        {
+          "id":"4b",
+          "alt":"redux",
+          "libPic":"/icons/redux.svg"
+        },
+        {
+          "id":"5b",
+          "alt":"express",
+          "libPic":"/icons/express.svg"
+        },
+        {
+          "id":"6b",
+          "alt":"docker",
+          "libPic":"/icons/docker.svg"
+        }
+      ]
+    },
+
+    {
+      "id":"3",
+      "pic":"/images/takeover.png",
+      "type":"Featured Project",
+      "projectName":"Takeover Waiter",
+      "description":"Takeover Waiter is an Mobile app for managing menus and receiveng order from dine-in customers.",
+      "delay":"delay-3000",
+      "libs": [
+        {
+          "id":"2c",
+          "alt":"react",
+          "libPic":"/icons/react-2.svg"
+        },
+        {
+          "id":"4c",
+          "alt":"redux",
+          "libPic":"/icons/redux.svg"
+        },
+        {
+          "id":"5c",
+          "alt":"express",
+          "libPic":"/icons/express.svg"
+        }
+      ]
+    }
+  ]
+}

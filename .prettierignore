@@ -1,0 +1,9 @@
+node_modules
+package.json
+package-lock.json
+src/assets/animations
+src/assets/icons
+yarn.lock
+public
+dist
+build

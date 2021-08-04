@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+  background-color: #1d2d50;
+  overscroll-behavior-y: none;
 }
 
 a {
@@ -14,3 +17,46 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.border-l-secondary {
+  border-left-color: #fcdab7
+}
+
+.border-b-secondary {
+  border-bottom-color: #fcdab7
+}
+
+.border-l-main-light {
+  border-left-color: #2d5680
+}
+
+.border-b-main-light {
+  border-bottom-color: #2d5680
+}
+
+ul li::before {
+  color: #fcdab7; /* Change the color */
+}
+
+.un {
+  display: inline-block;
+}
+
+.un::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #fcdab7;
+  transition: 300ms;
+}
+
+.un:hover::after {
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
