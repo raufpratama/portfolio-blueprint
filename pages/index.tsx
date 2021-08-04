@@ -19,10 +19,20 @@ export default function Home() {
     <div>
       <Head>
         <title>Rauf Pratama.</title>
-        <meta name="description" content="Generated with postive mind" />
+        <meta name="title" content="Rauf Pratama. Portfolio" />
+        <meta name="description" content="Your favourite Engineer." />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://raufpratama.com/" />
         <meta property="og:title" content="Rauf Pratama. Portfolio" />
-        <meta property="og:description" content="Your favourite Engineer" />
-        <meta property="og:image" content="https://portfolio-blueprint.vercel.app/rauf.jpg" />
+        <meta property="og:description" content="Your favourite Engineer." />
+        <meta property="og:image" content="https://raufpratama.com/rauf.jpg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://raufpratama.com/" />
+        <meta property="twitter:title" content="Rauf Pratama. Portfolio" />
+        <meta property="twitter:description" content="Your favourite Engineer." />
+        <meta property="twitter:image" content="https://raufpratama.com/rauf.jpg" />
         {/*<meta property="og:url" content="http://euro-travel-example.com/index.htm" />*/}
         <link rel="icon" href="/icons/favicon.ico" />
       </Head>
