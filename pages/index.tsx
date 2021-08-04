@@ -22,8 +22,8 @@ export default function Home() {
         <meta name="description" content="Generated with postive mind" />
         <meta property="og:title" content="Rauf Pratama. Portfolio" />
         <meta property="og:description" content="Your favourite Engineer" />
-        <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg" />
-        <meta property="og:url" content="http://euro-travel-example.com/index.htm" />
+        <meta property="og:image" content="https://portfolio-blueprint.vercel.app/rauf.jpg" />
+        {/*<meta property="og:url" content="http://euro-travel-example.com/index.htm" />*/}
         <link rel="icon" href="/icons/favicon.ico" />
       </Head>
 
