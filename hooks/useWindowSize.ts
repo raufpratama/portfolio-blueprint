@@ -14,7 +14,7 @@ const useWindowSize = () => {
       setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,
-        mobile: window.innerWidth >= 375 && window.innerWidth <= 639
+        mobile: window.innerWidth >= 350 && window.innerWidth <= 639
       });
     }
     // Add event listener
