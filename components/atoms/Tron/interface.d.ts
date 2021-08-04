@@ -1,3 +1,1 @@
-import { IProjectDescProps } from "../../organisms/ProjectDesc/interface";
-
-export type ITronProps = typeof IProjectDescProps;
+export type ITronProps = typeof import("../../templates/Works/content-data.json").projects.libs;

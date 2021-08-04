@@ -10,10 +10,10 @@ const divTransition =
 function Component(): ReactElement {
   const [showMore, setShowMore] = useState<boolean>(false);
   const [onLoad, setOnLoad] = useState<boolean>(false);
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const topPosition = ref.current.getBoundingClientRect().top;
+    const topPosition = ref.current ? ref.current.getBoundingClientRect().top : 0;
     const onScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight;
       if (topPosition < scrollPosition) {

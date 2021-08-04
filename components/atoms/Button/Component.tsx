@@ -1,5 +1,5 @@
 import React from "react";
-import { IButton, IButtonColorType } from "./interface";
+import { IButton } from "./interface";
 
 const Component: React.FC<IButton> = (props) => {
   const outline = props.type === "outline";
@@ -11,12 +11,13 @@ const Component: React.FC<IButton> = (props) => {
     success: `${outline ? "text-success border border-success" : "bg-success text-white"}`,
     info: `${outline ? "text-info border border-info" : "bg-info text-white"}`,
     warning: `${outline ? "text-warning border border-warning" : "bg-warning text-white"}`,
-    danger: `${outline ? "text-danger" : "bg-danger text-white"}`
+    danger: `${outline ? "text-danger" : "bg-danger text-white"}`,
+    disabled: ""
   };
   const pColor = props.disabled
     ? "bg-disabled text-gray-300"
     : props.color
-    ? (color[props.color] as IButtonColorType)
+    ? color[props.color]
     : outline
     ? "text-primary border border-primary"
     : "bg-primary text-white";

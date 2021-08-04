@@ -1,5 +1,3 @@
-import { ButtonHTMLAttributes, LabelHTMLAttributes } from "react";
-
 export interface ITypography {
   letterSpacing?:
     | "tracking-tighter"

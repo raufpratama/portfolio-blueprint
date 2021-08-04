@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { ReactElement, useEffect, useRef, useState } from "react";
 import SectionIndicator from "../../atoms/SectionIndicator";
 import Typography from "../../atoms/Typography";
@@ -10,10 +11,10 @@ const divTransition =
 function Component(): ReactElement {
   const [onHoverImg, setHoverImage] = useState<boolean>(false);
   const [onLoad, setOnLoad] = useState<boolean>(false);
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const topPosition = ref.current.getBoundingClientRect().top;
+    const topPosition = ref.current ? ref.current.getBoundingClientRect().top : 0;
     const onScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight;
       if (topPosition < scrollPosition) {
@@ -52,9 +53,11 @@ function Component(): ReactElement {
           className="w-60 h-60 relative z-10"
         >
           <div className="absolute bg-main-light bg-opacity-75 w-full h-full rounded-md transition duration-700 ease-out transform hover:bg-opacity-0"></div>
-          <img
-            className="object-cover w-full h-full object-bottom rounded-md"
+          <Image
+            className="object-bottom rounded-md"
             src={contentData.imagepath}
+            layout="fill"
+            objectFit="cover"
             alt="hero"
           />
         </div>
