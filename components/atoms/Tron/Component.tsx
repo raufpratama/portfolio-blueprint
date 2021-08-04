@@ -38,7 +38,7 @@ export default function Component(props: ITronProps): ReactElement {
               />
             </div>
             <div className="flex space-x-4">
-              {props.libs?.map((lib) => (
+              {props.libs?.map((lib: ITronProps) => (
                 <div key={lib.id}>
                   <Image src={lib.libPic} width="20" height="20" alt={lib.alt} />
                 </div>
