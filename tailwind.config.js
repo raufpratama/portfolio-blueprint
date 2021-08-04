@@ -39,7 +39,7 @@ module.exports = {
       }
     },
     screens: {
-      mobile: { min: "375px", max: "639px" },
+      mobile: { min: "350px", max: "639px" },
       sm: "640px",
       md: "768px",
       lg: "1024px",
