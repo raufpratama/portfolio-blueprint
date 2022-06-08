@@ -24,6 +24,27 @@
     },
     {
       "id":"2",
+      "position":"Mobile Engineer",
+      "name":"Qalboo",
+      "until":"Present",
+      "status":"Part-time",
+      "descriptions": [
+        {
+          "id":"d1",
+          "item":"Communicate with multi-disciplinary teams of engineers, project manager, and clients on a weekly basis"
+        },
+        {
+          "id":"d2",
+          "item":"Using react-native native"
+        },
+        {
+          "id":"d2",
+          "item":"Build robust and easy to maintenance code"
+        }
+      ]
+    },
+    {
+      "id":"3",
       "position":"Front End Engineer",
       "name":"Kementrian PUPR",
       "from":"Mar 2021",
@@ -41,7 +62,7 @@
       ]
     },
     {
-      "id":"3",
+      "id":"4",
       "name":"Delos",
       "position":"Front End Engineer",
       "from":"Apr",
@@ -63,7 +84,7 @@
       ]
     },
     {
-      "id":"4",
+      "id":"5",
       "position":"Front End Engineer",
       "name":"Eatsy",
       "from":"Jan",
@@ -85,7 +106,7 @@
       ]
     },
     {
-      "id":"5",
+      "id":"6",
       "position":"Mobile Developer",
       "name":"Wizy",
       "from":"Mar",
